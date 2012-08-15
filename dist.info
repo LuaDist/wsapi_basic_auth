@@ -10,5 +10,6 @@ url = "http://github.com/keplerproject/wsapi_basic_auth"
 maintainer = "Peter Drahos"
 
 depends = {
+	"lua ~> 5.1",
 	"wsapi >= 1.5",
 }
