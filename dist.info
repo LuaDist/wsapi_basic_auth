@@ -1,0 +1,25 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Hisham Muhammad"
+depends = {
+[[lua ~> 5.1]],
+[[wsapi >= 1.5]],
+}
+
+desc = "HTTP Basic Authentication for WSAPI."
+version = "0.1"
+maintainer = "Peter Drahos"
+files = {
+Runtime = {
+[[lib/lua/wsapi/basic_auth.lua]],
+}
+,
+Data = {
+[[share/wsapi_basic_auth/readme.md]],
+}
+,
+}
+
+license = "MIT/X11"
+name = "wsapi_basic_auth"
+url = "http://github.com/keplerproject/wsapi_basic_auth"
